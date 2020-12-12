@@ -1,5 +1,9 @@
 # Solução do trabalho proposto
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/7a3aa701f5d01b425623/maintainability)](https://codeclimate.com/github/lucasmidlhey/Trabalho-Individual-2020-1/maintainability)
+
+[![Build Status](https://travis-ci.org/lucasmidlhey/Trabalho-Individual-2020-1.svg?branch=master)](https://travis-ci.org/lucasmidlhey/Trabalho-Individual-2020-1)
+
 ## Rodando o projeto
 
 Para rodar todo o projeto se faz necessário:
@@ -18,3 +22,5 @@ Utilizado tambem `network` do Docker para conectar varias containers afim de se 
 
 Para fazer a entrega contínua foi utilizado o TravisCI que permite testar e buildar o software.
 O Travis CI é configurado adicionando um arquivo chamado `.travis.yml`, que é um arquivo de texto no formato YAML , ao diretório raiz do repositório. Este arquivo especifica a linguagem de programação usada, o ambiente de construção e teste desejado (incluindo dependências que devem ser instaladas antes que o software possa ser construído e testado) e vários outros parâmetros.
+
+Ps: o projeto está dando build mas nao está passando em um dos testes no travis.
